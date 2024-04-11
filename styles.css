@@ -93,3 +93,42 @@ footer {
 .contact-info a i {
     margin-right: 5px;
 }
+.project-carousel {
+    text-align: center; /* Centre le contenu horizontalement */
+    overflow: hidden; /* Masque tout contenu qui dépasse de la zone du carrousel */
+    margin: 0 auto; /* Centre le carrousel horizontalement en utilisant la marge automatique */
+    max-width: 100%; /* Limite la largeur maximale du carrousel à 100% de la largeur de son conteneur */
+    padding: 10px; /* Ajoute un espacement intérieur de 10 pixels pour le carrousel */
+}
+
+.project-carousel img {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: 200px; /* Réduire la hauteur des images à 200 pixels */
+    object-fit: contain; /* Ajuster les images pour qu'elles s'adaptent entièrement à la zone d'affichage */
+}
+.project-carousel-container {
+    position: relative;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    right: -20px; /* Ajustez cette valeur pour positionner l'icône selon vos besoins */
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000; /* Couleur de l'icône */
+    font-size: 24px; /* Taille de l'icône */
+}
+
+/* Ajustez ces styles selon l'icône utilisée */
+.carousel-arrow i {
+    color : red;
+}
+
+
+
+
+
+

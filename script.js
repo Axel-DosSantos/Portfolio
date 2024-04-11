@@ -25,3 +25,20 @@ navLinks.forEach((link) => {
     });
   });
 });
+$(document).ready(function () {
+  $(".project-carousel").slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Nombre de diapositives affichées en même temps
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 768, // Point de rupture pour les tailles d'écran plus petites
+        settings: {
+          slidesToShow: 1, // Affiche une seule diapositive sur les écrans plus petits
+        },
+      },
+    ],
+  });
+});
