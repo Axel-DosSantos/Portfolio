@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.loader {
+    /* Ajoutez ici l'animation de chargement */
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -38,7 +42,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-footer {
+.footer {
     background-color: #333;
     color: #fff;
     text-align: center;
