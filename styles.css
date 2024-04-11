@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ddd; /* Fond d'écran gris */
 }
 
 .loader {
@@ -12,16 +13,29 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Aligner les éléments de l'en-tête */
+    align-items: center; /* Aligner verticalement les éléments de l'en-tête */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 main {
@@ -42,7 +56,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.footer {
+footer {
     background-color: #333;
     color: #fff;
     text-align: center;
