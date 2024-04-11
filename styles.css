@@ -79,3 +79,17 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+}
+
+.contact-info a i {
+    margin-right: 5px;
+}
